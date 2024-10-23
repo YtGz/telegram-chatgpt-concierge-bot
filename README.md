@@ -32,6 +32,23 @@ OPENAI_MODEL=gpt-3.5-turbo # only if you don't have access to GPT-4
 4. `npm install`
 5. `npm start`
 
+### Using Docker
+
+You can also run the bot using Docker:
+
+1. Build the container:
+
+```bash
+docker build -t telegram-chatgpt-bot .
+```
+
+2. Run the container:
+
+```bash
+docker run -d --env-file .env telegram-chatgpt-bot
+```
+
+
 ### Consulting
 
 I, @RafalWilinski (creator of this repo), offer consulting. If you are interested on hiring weekly hours with me on a retainer, feel free to email me at raf.wilinski@gmail.com
